@@ -6,7 +6,7 @@ from utils.random_generator import generate_random_bits
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((200, 200), pygame.FULLSCREEN)  # Set resolution to 200x200 and enable fullscreen
+    screen = pygame.display.set_mode((200, 200), pygame.NOFRAME)  # Use NOFRAME to simulate fullscreen without errors
     pygame.display.set_caption("Random Speedometer")
     
     gamepad = GamepadController()
