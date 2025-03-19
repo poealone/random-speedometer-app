@@ -1,0 +1,4 @@
+pygame
+numpy
+RPi.GPIO
+random2
